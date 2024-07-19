@@ -213,6 +213,24 @@ hr {
 
 #signup-form h2 {
     color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    color: #fafafa;
+    background: transparent;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 /*footer*/
@@ -298,6 +316,11 @@ hr {
      /*gallery*/
      #photos {
         column-count: 3;
+     }
+
+     #signup {
+        display: flex;
+        align-content: center;
      }
 } 
 /*laptops and desktops 992px and up*/
