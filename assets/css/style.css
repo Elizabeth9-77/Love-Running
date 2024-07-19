@@ -92,6 +92,9 @@ main {
     /*make main take up any surplus space to push footer to the bottom*/
     flex: 1 0 auto;
     margin-top: 47px;
+    /*enable fkex for child elements*/
+    display: flex;
+    flex-direction: column;
 }
 
 /*hero settings*/
@@ -191,6 +194,25 @@ hr {
 
 #photos {
     line-height: 0;
+}
+
+/*form styles*/
+#signup {
+    background: url(../images/signup-image.webp);
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, .6);
+    padding: 30px;
+}
+
+#signup-form h2 {
+    color: #fafafa;
 }
 
 /*footer*/
